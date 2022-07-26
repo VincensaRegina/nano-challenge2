@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D0C7CE288FEEFD001E7487 /* nano_challenge2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0C7CD288FEEFD001E7487 /* nano_challenge2App.swift */; };
+		A2D0C7D0288FEEFD001E7487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0C7CF288FEEFD001E7487 /* ContentView.swift */; };
+		A2D0C7D2288FEEFE001E7487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D0C7D1288FEEFE001E7487 /* Assets.xcassets */; };
+		A2D0C7D5288FEEFE001E7487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D0C7D4288FEEFE001E7487 /* Preview Assets.xcassets */; };
+		A2D0C7D7288FEEFE001E7487 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0C7D6288FEEFE001E7487 /* Persistence.swift */; };
+		A2D0C7DA288FEEFE001E7487 /* nano_challenge2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2D0C7D8288FEEFE001E7487 /* nano_challenge2.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2D0C7CA288FEEFD001E7487 /* nano-challenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nano-challenge2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D0C7CD288FEEFD001E7487 /* nano_challenge2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nano_challenge2App.swift; sourceTree = "<group>"; };
+		A2D0C7CF288FEEFD001E7487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2D0C7D1288FEEFE001E7487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D0C7D4288FEEFE001E7487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2D0C7D6288FEEFE001E7487 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A2D0C7D9288FEEFE001E7487 /* nano_challenge2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nano_challenge2.xcdatamodel; sourceTree = "<group>"; };
+		A2D0C7DB288FEEFE001E7487 /* nano_challenge2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nano_challenge2.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D0C7C7288FEEFD001E7487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D0C7C1288FEEFD001E7487 = {
+			isa = PBXGroup;
+			children = (
+				A2D0C7CC288FEEFD001E7487 /* nano-challenge2 */,
+				A2D0C7CB288FEEFD001E7487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D0C7CB288FEEFD001E7487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0C7CA288FEEFD001E7487 /* nano-challenge2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D0C7CC288FEEFD001E7487 /* nano-challenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0C7CD288FEEFD001E7487 /* nano_challenge2App.swift */,
+				A2D0C7CF288FEEFD001E7487 /* ContentView.swift */,
+				A2D0C7D1288FEEFE001E7487 /* Assets.xcassets */,
+				A2D0C7D6288FEEFE001E7487 /* Persistence.swift */,
+				A2D0C7DB288FEEFE001E7487 /* nano_challenge2.entitlements */,
+				A2D0C7D8288FEEFE001E7487 /* nano_challenge2.xcdatamodeld */,
+				A2D0C7D3288FEEFE001E7487 /* Preview Content */,
+			);
+			path = "nano-challenge2";
+			sourceTree = "<group>";
+		};
+		A2D0C7D3288FEEFE001E7487 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0C7D4288FEEFE001E7487 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D0C7C9288FEEFD001E7487 /* nano-challenge2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D0C7DE288FEEFE001E7487 /* Build configuration list for PBXNativeTarget "nano-challenge2" */;
+			buildPhases = (
+				A2D0C7C6288FEEFD001E7487 /* Sources */,
+				A2D0C7C7288FEEFD001E7487 /* Frameworks */,
+				A2D0C7C8288FEEFD001E7487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nano-challenge2";
+			productName = "nano-challenge2";
+			productReference = A2D0C7CA288FEEFD001E7487 /* nano-challenge2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D0C7C2288FEEFD001E7487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A2D0C7C9288FEEFD001E7487 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A2D0C7C5288FEEFD001E7487 /* Build configuration list for PBXProject "nano-challenge2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D0C7C1288FEEFD001E7487;
+			productRefGroup = A2D0C7CB288FEEFD001E7487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D0C7C9288FEEFD001E7487 /* nano-challenge2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D0C7C8288FEEFD001E7487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0C7D5288FEEFE001E7487 /* Preview Assets.xcassets in Resources */,
+				A2D0C7D2288FEEFE001E7487 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D0C7C6288FEEFD001E7487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0C7DA288FEEFE001E7487 /* nano_challenge2.xcdatamodeld in Sources */,
+				A2D0C7D7288FEEFE001E7487 /* Persistence.swift in Sources */,
+				A2D0C7D0288FEEFD001E7487 /* ContentView.swift in Sources */,
+				A2D0C7CE288FEEFD001E7487 /* nano_challenge2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2D0C7DC288FEEFE001E7487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2D0C7DD288FEEFE001E7487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A2D0C7DF288FEEFE001E7487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "nano-challenge2/nano_challenge2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nano-challenge2/Preview Content\"";
+				DEVELOPMENT_TEAM = FD4B7DH8HN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adac5.nano-challenge2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2D0C7E0288FEEFE001E7487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "nano-challenge2/nano_challenge2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nano-challenge2/Preview Content\"";
+				DEVELOPMENT_TEAM = FD4B7DH8HN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adac5.nano-challenge2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D0C7C5288FEEFD001E7487 /* Build configuration list for PBXProject "nano-challenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D0C7DC288FEEFE001E7487 /* Debug */,
+				A2D0C7DD288FEEFE001E7487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D0C7DE288FEEFE001E7487 /* Build configuration list for PBXNativeTarget "nano-challenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D0C7DF288FEEFE001E7487 /* Debug */,
+				A2D0C7E0288FEEFE001E7487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2D0C7D8288FEEFE001E7487 /* nano_challenge2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2D0C7D9288FEEFE001E7487 /* nano_challenge2.xcdatamodel */,
+			);
+			currentVersion = A2D0C7D9288FEEFE001E7487 /* nano_challenge2.xcdatamodel */;
+			path = nano_challenge2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2D0C7C2288FEEFD001E7487 /* Project object */;
+}
