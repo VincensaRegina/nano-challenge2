@@ -13,6 +13,8 @@
 		A2D0C7D5288FEEFE001E7487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D0C7D4288FEEFE001E7487 /* Preview Assets.xcassets */; };
 		A2D0C7D7288FEEFE001E7487 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0C7D6288FEEFE001E7487 /* Persistence.swift */; };
 		A2D0C7DA288FEEFE001E7487 /* nano_challenge2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2D0C7D8288FEEFE001E7487 /* nano_challenge2.xcdatamodeld */; };
+		A2D0C7E22893B3B3001E7487 /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0C7E12893B3B3001E7487 /* RichTextView.swift */; };
+		A2D0C7E52893B41F001E7487 /* RichTextKit in Frameworks */ = {isa = PBXBuildFile; productRef = A2D0C7E42893B41F001E7487 /* RichTextKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		A2D0C7D6288FEEFE001E7487 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A2D0C7D9288FEEFE001E7487 /* nano_challenge2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nano_challenge2.xcdatamodel; sourceTree = "<group>"; };
 		A2D0C7DB288FEEFE001E7487 /* nano_challenge2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nano_challenge2.entitlements; sourceTree = "<group>"; };
+		A2D0C7E12893B3B3001E7487 /* RichTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D0C7E52893B41F001E7487 /* RichTextKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,7 @@
 				A2D0C7DB288FEEFE001E7487 /* nano_challenge2.entitlements */,
 				A2D0C7D8288FEEFE001E7487 /* nano_challenge2.xcdatamodeld */,
 				A2D0C7D3288FEEFE001E7487 /* Preview Content */,
+				A2D0C7E12893B3B3001E7487 /* RichTextView.swift */,
 			);
 			path = "nano-challenge2";
 			sourceTree = "<group>";
@@ -91,6 +96,9 @@
 			dependencies = (
 			);
 			name = "nano-challenge2";
+			packageProductDependencies = (
+				A2D0C7E42893B41F001E7487 /* RichTextKit */,
+			);
 			productName = "nano-challenge2";
 			productReference = A2D0C7CA288FEEFD001E7487 /* nano-challenge2.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +127,9 @@
 				Base,
 			);
 			mainGroup = A2D0C7C1288FEEFD001E7487;
+			packageReferences = (
+				A2D0C7E32893B41F001E7487 /* XCRemoteSwiftPackageReference "RichTextKit" */,
+			);
 			productRefGroup = A2D0C7CB288FEEFD001E7487 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D0C7DA288FEEFE001E7487 /* nano_challenge2.xcdatamodeld in Sources */,
+				A2D0C7E22893B3B3001E7487 /* RichTextView.swift in Sources */,
 				A2D0C7D7288FEEFE001E7487 /* Persistence.swift in Sources */,
 				A2D0C7D0288FEEFD001E7487 /* ContentView.swift in Sources */,
 				A2D0C7CE288FEEFD001E7487 /* nano_challenge2App.swift in Sources */,
@@ -344,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2D0C7E32893B41F001E7487 /* XCRemoteSwiftPackageReference "RichTextKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/RichTextKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2D0C7E42893B41F001E7487 /* RichTextKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2D0C7E32893B41F001E7487 /* XCRemoteSwiftPackageReference "RichTextKit" */;
+			productName = RichTextKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A2D0C7D8288FEEFE001E7487 /* nano_challenge2.xcdatamodeld */ = {
